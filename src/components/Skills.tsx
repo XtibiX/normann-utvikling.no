@@ -5,22 +5,22 @@ const skillCategories = [
   {
     icon: Code2,
     title: "Backend & API",
-    skills: ["Kotlin/Spring Boot (JDK 21)", "Java", "REST API Design", "Kafka Streams", "GraphQL"]
+    skills: ["Kotlin/Spring Boot (JDK 21)", "Java 17+", "REST API Design", "Spring WebFlux", "Coroutines"]
   },
   {
     icon: Database,
-    title: "Databaser & Data",
-    skills: ["Snowflake", "PostgreSQL", "Oracle DB", "GraphDB", "Kafka Connect"]
+    title: "Data & Streaming",
+    skills: ["Kafka Streams", "Kafka Connect", "Snowflake", "PostgreSQL", "Oracle DB"]
   },
   {
     icon: Cloud,
     title: "Cloud & DevOps",
-    skills: ["AWS EKS", "Docker", "Kubernetes/Helm", "GitLab CI/CD", "DataDog"]
+    skills: ["AWS EKS", "Docker", "Kubernetes/Helm", "GitLab CI/CD", "DataDog/Prometheus"]
   },
   {
     icon: Zap,
-    title: "Frontend",
-    skills: ["TypeScript/React", "JavaScript", "Knockout.js", "HTML5/CSS3", "Playwright"]
+    title: "Integrasjoner",
+    skills: ["MQTT", "Apache Camel", "GraphDB", "Enterprise Integration Patterns", "Microservices"]
   }
 ];
 
@@ -33,7 +33,7 @@ export const Skills = () => {
             Nøkkelkompetanse
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Bred erfaring med moderne teknologier for fullstack-utvikling og systemarkitektur
+            Dyp kompetanse i moderne backend-teknologier, datastreaming og systemarkitektur
           </p>
         </div>
         

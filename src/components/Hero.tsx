@@ -17,7 +17,7 @@ export const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl">
           <div className="inline-block mb-4 px-4 py-1.5 bg-accent/10 rounded-full">
-            <span className="text-sm font-medium text-accent">Tech Lead & Fullstack-utvikler</span>
+            <span className="text-sm font-medium text-accent">Tech Lead & Backend-utvikler</span>
           </div>
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
@@ -25,8 +25,8 @@ export const Hero = () => {
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            14+ års erfaring med moderne fullstack-utvikling og teknisk ledelse. 
-            Spesialisert på Kotlin/Spring Boot, React/TypeScript, og skybaserte løsninger.
+            14+ års erfaring med backend-utvikling og teknisk ledelse. 
+            Spesialisert på Kotlin/Spring Boot, Kafka Streams, og skalerbare skyløsninger.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">

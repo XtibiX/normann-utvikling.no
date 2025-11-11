@@ -24,13 +24,14 @@ const experiences = [
   {
     period: "01.2019 – 01.2023",
     company: "Sparebank 1",
-    role: "Fullstack-utvikler - Dialog & Salg",
-    description: "Modernisering av chat, meldinger og dokumenter for kunde-bank kommunikasjon.",
+    role: "Backend-utvikler - Dialog & Salg",
+    description: "Design og utvikling av backend-infrastruktur for kunde-bank kommunikasjon med fokus på API-design og meldingshåndtering.",
     highlights: [
-      "Hovedansvar for nytt meldings REST-API med sanntid over Kafka",
-      "Konvertering til TypeScript (frontend) og Kotlin (backend)",
-      "Hypotesedrevet utvikling med A/B testing",
-      "AWS migrering og GitHub Actions CI/CD"
+      "Hovedansvar for nytt meldings REST-API med sanntidshåndtering over Kafka",
+      "Implementerte transaksjonell persistering med Kafka og PostgreSQL",
+      "Migrerte backend til Kotlin/Spring Boot på Sparebank1s plattform",
+      "OpenAPI/Swagger kontraktstyrt API-design for CRM-integrasjoner",
+      "AWS migrering med GitHub Actions CI/CD"
     ]
   },
   {
@@ -47,13 +48,14 @@ const experiences = [
   {
     period: "01.2015 – 10.2016",
     company: "Nettalliansen - Embriq Quant",
-    role: "Fullstack-utvikler",
-    description: "Utvikling av Smart Grid-plattform for nettselskaper.",
+    role: "Backend-utvikler & Integrasjonsansvarlig",
+    description: "Utvikling av backend-infrastruktur for Smart Grid-plattform med fokus på integrasjoner og datahåndtering.",
     highlights: [
-      "Kritisk plattform for måleverdihåndtering med høyt transaksjonsvolum",
-      "Fullstack-utvikling med Java/Spring og JavaScript",
-      "Integrasjoner med REST og SOAP WebServices",
-      "Scrum/Kanban metodikk"
+      "Backend-utvikling for kritisk plattform med høyt transaksjonsvolum",
+      "Ansvar for integrasjoner mellom systemkomponenter og kundesystemer",
+      "Java/Spring backend med Oracle DB og JMS",
+      "SOAP WebServices og REST API-integrasjoner",
+      "Smidig utvikling med Scrum/Kanban"
     ]
   }
 ];
