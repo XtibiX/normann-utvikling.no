@@ -41,22 +41,22 @@ export const About = () => {
             <div className="order-2 md:order-1">
               <h3 className="text-2xl font-bold mb-4">Rolf Erik Normann</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                Med over 14 års erfaring som backend-utvikler og nesten 3 år som Tech Lead, har jeg 
-                spesialisert meg på å bygge robuste, skalerbare backend-løsninger. Min hovedkompetanse 
-                ligger i <span className="text-accent font-semibold">Kotlin/Spring Boot (JDK 21)</span>, 
-                <span className="text-accent font-semibold"> Kafka Streams</span>, og moderne 
-                <span className="text-accent font-semibold"> skyløsninger som AWS EKS</span>.
+                Med over 14 års erfaring i IT-bransjen har jeg funnet min lidenskap i å skape 
+                verdi gjennom godt håndverk og sterke team. Som Tech Lead handler det ikke bare om 
+                å levere kode, men om å bygge løsninger som faktisk løser reelle problemer og som 
+                kan vokse med virksomheten.
               </p>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                Jeg har ledet utviklingen av kritiske backend-systemer for sanntidsdatabehandling, 
-                designet API-arkitekturer for store finansinstitusjoner, og bygget integrasjonsløsninger 
-                for kritisk infrastruktur. Min styrke er å kombinere teknisk dybdekompetanse med 
-                ledererfaring for å levere løsninger av høy kvalitet.
+                Jeg tror på at de beste løsningene kommer fra team som jobber godt sammen, der 
+                teknisk dyktighet kombineres med god kommunikasjon og en kultur for læring. 
+                Min rolle er å legge til rette for dette - både ved å dele min tekniske erfaring 
+                og ved å skape et miljø der alle kan bidra med sitt beste.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Som Tech Lead fokuserer jeg på å bygge effektive team, etablere robuste 
-                DevOps-praksiser, og sikre kontinuerlig forbedring gjennom datadrevne beslutninger 
-                og moderne utviklingsmetodikk.
+                Fra kritiske backend-systemer for finanssektoren til sanntidsløsninger for transport 
+                og energi - jeg har hatt gleden av å jobbe med systemer som betyr noe. Det som driver 
+                meg er å kombinere teknisk dypdykk med pragmatisk problemløsning, alltid med fokus på 
+                å levere reell verdi til brukerne.
               </p>
             </div>
             
