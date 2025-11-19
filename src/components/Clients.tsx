@@ -5,8 +5,6 @@ const clients = [
   { name: "Ruter", logo: null },
   { name: "Sparebank 1", logo: null },
   { name: "Statnett", logo: null },
-  { name: "Nettalliansen", logo: null },
-  { name: "Embriq Quant", logo: null },
 ];
 
 export const Clients = () => {
@@ -20,7 +18,7 @@ export const Clients = () => {
           Jeg har hatt gleden av å samarbeide med ledende bedrifter innen finans, transport og energi
         </p>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {clients.map((client) => (
             <Card key={client.name} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-6 flex items-center justify-center h-32">
