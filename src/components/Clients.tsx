@@ -12,10 +12,10 @@ export const Clients = () => {
     <section id="clients" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Kunder & Samarbeidspartnere
+          Kunder
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Jeg har hatt gleden av å samarbeide med ledende bedrifter innen finans, transport og energi
+          Jeg har levert løsninger for ledende bedrifter innen finans, transport og energi
         </p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
