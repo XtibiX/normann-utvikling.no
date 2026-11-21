@@ -9,6 +9,8 @@ const events = [
   { key: "tet-digital", value: "snowflake · dataplattform", year: "2023" },
   { key: "normann", value: "tech lead · selvstendig", year: "2023" },
   { key: "ruter", value: "apc + dørstatus · eks", year: "2024" },
+  { key: "tet-digital", value: "gitlab → github · argocd", year: "2026" },
+  { key: "tet-digital", value: "reiseinnsikt · tech lead", year: "2026" },
 ];
 
 const stats = [
@@ -87,8 +89,8 @@ export const Hero = () => {
               style={{ transitionDelay: "160ms" }}
             >
               14+ års erfaring med backend-utvikling og teknisk ledelse. Spesialisert på{" "}
-              <span className="text-ink">Kotlin/Spring Boot</span>, <span className="text-ink">Kafka Streams</span> og
-              skalerbare skyløsninger.
+              <span className="text-ink">Kotlin/Spring Boot</span>, <span className="text-ink">Kafka Streams</span>,
+              skalerbare skyløsninger og <span className="text-ink">AI-assistert utvikling</span>.
             </p>
             <div className="mt-10 flex flex-col gap-3 sm:flex-row" data-reveal style={{ transitionDelay: "240ms" }}>
               <a

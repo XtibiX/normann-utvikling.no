@@ -23,11 +23,11 @@ const technicalExpertise = [
     tags: ["Cloud", "DevOps", "Infrastructure"],
   },
   {
-    title: "Spring Boot",
-    version: "3.x",
+    title: "AI-assistert utvikling",
+    version: "Claude Code",
     description:
-      "Ekspertise i å bygge enterprise-grade applikasjoner med Spring Boot. Fokus på sikkerhet, ytelse og vedlikeholdbarhet.",
-    tags: ["Framework", "Enterprise", "Backend"],
+      "Bruker AI-agenter og Claude Code aktivt i utvikling, kodegjennomgang og dokumentasjon. Erfaring med å innføre AI-verktøy i team på en trygg og strukturert måte, og med å bygge kunnskapsbaser som agenter kan jobbe mot.",
+    tags: ["AI-agenter", "Claude Code", "Second Brain"],
   },
 ];
 

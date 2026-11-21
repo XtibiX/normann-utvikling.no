@@ -10,18 +10,32 @@ const experiences = [
     current: true,
   },
   {
-    period: "02.2023 – i dag",
-    company: "TET Digital & Ruter",
+    period: "04.2026 – i dag",
+    company: "TET Digital",
+    role: "Tech Lead – Reiseinnsikt",
+    description:
+      "Teknisk ansvar for Reiseinnsikt, etablert ved sammenslåing av teamene Passasjertelling og Observert Trafikk. Utvidet ansvar for arkitektur, teknisk retning og leveranser på tvers av begge fagområdene.",
+    highlights: [
+      "Leder sammenslåingen av to team til ett felles team med felles arkitektur og arbeidsform",
+      "Gjennomførte migrering fra GitLab til GitHub, med GitHub Actions for CI/CD",
+      "Innfører GitOps-basert utrulling med ArgoCD på AWS EKS",
+      "Tar i bruk AI-assistert utvikling med Claude Code og agenter i teamets daglige arbeid",
+      "Bygger teamets «Second Brain» – en felles kunnskapsbase som samler kode, Notion-dokumentasjon, Snowflake-tabeller og dbt-modeller, tilgjengelig for både utviklere og AI-agenter",
+    ],
+    current: true,
+  },
+  {
+    period: "02.2023 – 03.2026",
+    company: "Ruter → TET Digital",
     role: "Tech Lead – Team Passasjertelling",
     description:
-      "Ansvar for standardisering og behandling av kjøretøydata (APC og dørstatus) for kollektivtransport.",
+      "Ansvar for standardisering og behandling av kjøretøydata (APC og dørstatus) for kollektivtransport. Teamet startet i Ruter og ble fra 2025 en del av TET Digital, da utviklingsmiljøet i Ruter ble skilt ut i eget selskap.",
     highlights: [
       "Bygget nytt team fra grunnen med fokus på sanntidsovervåkning av passasjertrafikk",
       "Implementerte Kafka Streams og AWS EKS for skalerbar dataarkitektur",
-      "Første team i TET Digital som tok i bruk Snowflake som dataplatform",
+      "Første team i TET Digital som tok i bruk Snowflake som dataplattform",
       "Kotlin/Spring Boot med JDK 21, MQTT, og ML-modeller for prediksjoner",
     ],
-    current: true,
   },
   {
     period: "01.2019 – 01.2023",
