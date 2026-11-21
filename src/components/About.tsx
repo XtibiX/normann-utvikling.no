@@ -39,15 +39,15 @@ export const About = () => {
 
           <div className="lg:col-span-7 lg:col-start-6" data-reveal style={{ transitionDelay: "120ms" }}>
             <p className="text-2xl leading-snug sm:text-[1.7rem]">
-              Med over 14 års erfaring i IT-bransjen har jeg funnet min lidenskap i å skape verdi gjennom godt
-              håndverk og sterke team. Som Tech Lead handler det ikke bare om å levere kode, men om å bygge løsninger
-              som faktisk løser reelle problemer og som kan vokse med virksomheten.
+              Med over 14 års erfaring i IT-bransjen har jeg funnet lidenskapen min i å skape verdi gjennom godt
+              håndverk og sterke team. For meg som Tech Lead handler det ikke bare om å levere kode, men om å bygge løsninger
+              som tar tak i reelle problemer og som kan vokse med virksomheten.
             </p>
             <div className="mt-10 grid gap-6 text-ink/70 sm:grid-cols-2 sm:gap-10">
               <p className="leading-relaxed">
-                Jeg tror på at de beste løsningene kommer fra team som jobber godt sammen, der teknisk dyktighet
-                kombineres med god kommunikasjon og en kultur for læring. Min rolle er å legge til rette for dette –
-                både ved å dele min tekniske erfaring og ved å skape et miljø der alle kan bidra med sitt beste.
+                Jeg tror at de beste løsningene kommer fra team som jobber godt sammen, der teknisk dyktighet
+                kombineres med god kommunikasjon og en kultur for læring. Rollen min er å legge til rette for dette –
+                både ved å dele av den tekniske erfaringen min og ved å skape et miljø der alle kan bidra med sitt beste.
               </p>
               <p className="leading-relaxed">
                 Fra kritiske backend-systemer for finanssektoren til sanntidsløsninger for transport og energi – jeg

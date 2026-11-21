@@ -8,7 +8,7 @@ const experiences = [
     description:
       "Teknisk ansvar for Reiseinnsikt, etablert ved sammenslåing av teamene Passasjertelling og Observert Trafikk. Utvidet ansvar for arkitektur, teknisk retning og leveranser på tvers av begge fagområdene.",
     highlights: [
-      "Leder sammenslåingen av to team til ett felles team med felles arkitektur og arbeidsform",
+      "Leder sammenslåingen av to team til ett team med felles arkitektur og arbeidsform",
       "Gjennomførte migrering fra GitLab til GitHub, med GitHub Actions for CI/CD",
       "Innfører GitOps-basert utrulling med ArgoCD på AWS EKS",
       "Tar i bruk AI-assistert utvikling med Claude Code og agenter i teamets daglige arbeid",
@@ -23,32 +23,32 @@ const experiences = [
     description:
       "Ansvar for standardisering og behandling av kjøretøydata (APC og dørstatus) for kollektivtransport. Teamet startet i Ruter og ble fra 2025 en del av TET Digital, da utviklingsmiljøet i Ruter ble skilt ut i eget selskap.",
     highlights: [
-      "Bygget nytt team fra grunnen med fokus på sanntidsovervåkning av passasjertrafikk",
+      "Bygget nytt team fra grunnen av, med vekt på sanntidsovervåkning av passasjertrafikk",
       "Implementerte Kafka Streams og AWS EKS for skalerbar dataarkitektur",
       "Første team i TET Digital som tok i bruk Snowflake som dataplattform",
-      "Kotlin/Spring Boot med JDK 21, MQTT, og ML-modeller for prediksjoner",
+      "Kotlin/Spring Boot med JDK 21, MQTT og ML-modeller for prediksjoner",
     ],
   },
   {
     period: "2023 – i dag",
     company: "Normann Utvikling",
-    role: "Selvstendig, Tech Lead & Fullstack-utvikler",
+    role: "Selvstendig, Tech Lead & fullstack-utvikler",
     description: "Konsulentoppdrag med fokus på teknisk ledelse og fullstack-utvikling.",
     highlights: [],
     current: true,
   },
   {
     period: "01.2019 – 01.2023",
-    company: "Sparebank 1",
+    company: "SpareBank 1",
     role: "Backend-utvikler – Dialog & Salg",
     description:
-      "Design og utvikling av backend-infrastruktur for kunde-bank kommunikasjon med fokus på API-design og meldingshåndtering.",
+      "Design og utvikling av backend-infrastruktur for kommunikasjon mellom kunde og bank, med vekt på API-design og meldingshåndtering.",
     highlights: [
-      "Hovedansvar for nytt meldings REST-API med sanntidshåndtering over Kafka",
+      "Hovedansvar for nytt REST-API for meldinger, med sanntidshåndtering over Kafka",
       "Implementerte transaksjonell persistering med Kafka og PostgreSQL",
-      "Migrerte backend til Kotlin/Spring Boot på Sparebank1s plattform",
-      "OpenAPI/Swagger kontraktstyrt API-design for CRM-integrasjoner",
-      "AWS migrering med GitHub Actions CI/CD",
+      "Migrerte backend til Kotlin/Spring Boot på SpareBank 1s plattform",
+      "Kontraktstyrt API-design med OpenAPI/Swagger for CRM-integrasjoner",
+      "Migrering til AWS, med CI/CD i GitHub Actions",
     ],
   },
   {
@@ -57,22 +57,22 @@ const experiences = [
     role: "Integrasjonsutvikler",
     description: "Design og utvikling av integrasjoner for EMS-bytte i det sentrale elektrisitetsnettet.",
     highlights: [
-      "Guaranteed delivery mellom systemer med Enterprise Integration Patterns",
-      "Tilgjengeliggjøring av nettmodell i GraphDB via REST API",
+      "Garantert levering (guaranteed delivery) mellom systemer med Enterprise Integration Patterns",
+      "Gjorde nettmodellen tilgjengelig i GraphDB via REST-API",
       "Apache Camel, Red Hat Fuse, Docker, OpenShift",
     ],
   },
   {
     period: "01.2015 – 10.2016",
     company: "Nettalliansen – Embriq Quant",
-    role: "Backend-utvikler & Integrasjonsansvarlig",
+    role: "Backend-utvikler og integrasjonsansvarlig",
     description:
-      "Utvikling av backend-infrastruktur for Smart Grid-plattform med fokus på integrasjoner og datahåndtering.",
+      "Utvikling av backend-infrastruktur for Smart Grid-plattform, med hovedvekt på integrasjoner og datahåndtering.",
     highlights: [
       "Backend-utvikling for kritisk plattform med høyt transaksjonsvolum",
       "Ansvar for integrasjoner mellom systemkomponenter og kundesystemer",
       "Java/Spring backend med Oracle DB og JMS",
-      "SOAP WebServices og REST API-integrasjoner",
+      "SOAP-webtjenester og REST-API-integrasjoner",
       "Smidig utvikling med Scrum/Kanban",
     ],
   },

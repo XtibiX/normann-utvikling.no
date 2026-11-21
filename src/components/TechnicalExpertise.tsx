@@ -5,22 +5,22 @@ const technicalExpertise = [
     title: "Kotlin & Spring Boot",
     version: "JDK 21",
     description:
-      "Hovedkompetanse i moderne backend-utvikling med Kotlin og Spring Boot. Ekspert på reaktiv programmering med WebFlux og Coroutines.",
-    tags: ["Backend", "Microservices", "REST API"],
+      "Hovedkompetanse i moderne backend-utvikling med Kotlin og Spring Boot. Ekspert på reaktiv programmering med WebFlux og coroutines.",
+    tags: ["Backend", "Microservices", "REST-API"],
   },
   {
     title: "Kafka Streams",
     version: "Enterprise",
     description:
-      "Dyp erfaring med sanntidsdatabehandling og event-driven arkitektur. Bygget kritiske streaming-løsninger for finans og transport.",
-    tags: ["Data Streaming", "Real-time", "Event-driven"],
+      "Solid erfaring med sanntidsdatabehandling og hendelsesdrevet arkitektur. Bygget kritiske streaming-løsninger for finans og transport.",
+    tags: ["Strømmebehandling", "Sanntid", "Hendelsesdrevet"],
   },
   {
     title: "AWS EKS",
     version: "Kubernetes",
     description:
-      "Omfattende erfaring med container-orkestrering og cloud-native løsninger. Designet og driftet skalerbare produksjonsmiljøer.",
-    tags: ["Cloud", "DevOps", "Infrastructure"],
+      "Omfattende erfaring med containerorkestrering og cloud-native løsninger. Designet og driftet skalerbare produksjonsmiljøer.",
+    tags: ["Cloud", "DevOps", "Infrastruktur"],
   },
   {
     title: "AI-assistert utvikling",
@@ -46,7 +46,7 @@ export const TechnicalExpertise = () => {
               <em className="italic text-signal">som ikke får gå ned.</em>
             </>
           }
-          lead="Spesialisert i moderne backend-teknologier for kritiske systemer."
+          lead="Spesialisert på moderne backend-teknologier for kritiske systemer."
         />
 
         <ul className="mt-20 border-t border-paper/15">

@@ -7,7 +7,7 @@ export const Footer = () => {
         </p>
         <div className="mt-12 flex flex-col justify-between gap-3 border-t border-paper/15 pt-6 font-mono text-xs text-paper/50 sm:flex-row">
           <span>© {new Date().getFullYear()} Normann Utvikling. Alle rettigheter reservert.</span>
-          <span>Tech Lead &amp; Fullstack-utvikler</span>
+          <span>Tech Lead &amp; fullstack-utvikler</span>
         </div>
       </div>
     </footer>

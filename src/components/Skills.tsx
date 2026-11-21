@@ -1,7 +1,7 @@
 const skillCategories = [
   {
     title: "Backend & API",
-    skills: ["Kotlin/Spring Boot (JDK 21)", "Java 17+", "REST API Design", "Spring WebFlux", "Coroutines"],
+    skills: ["Kotlin/Spring Boot (JDK 21)", "Java 17+", "REST-API-design", "Spring WebFlux", "Coroutines"],
   },
   {
     title: "Data & Streaming",
