@@ -49,6 +49,7 @@ Tokens are HSL in `src/index.css`, exposed as Tailwind colors in `tailwind.confi
 - Profile photo in `About` is always grayscale (no hover colour) on a `bg-signal` offset block.
 - Motion: the hero "Kafka stream" panel scrolls (`animate-stream`); the client list is static on purpose (a scrolling marquee was rejected as too much). All motion is disabled under `prefers-reduced-motion`.
 - Favicon: `public/favicon.svg` ("n." mark), plus `favicon-32.png` and `apple-touch-icon.png` rendered from it. Regenerate the PNGs if the SVG changes.
+- `brand/` (git-ignored, local only) holds the LinkedIn logo and cover as HTML sources plus rendered PNGs, in the same design. Re-render with a headless browser at 2x if the design changes.
 - Check layouts at 390px wide as well as desktop; the hero grid needs `grid-cols-1` on mobile to avoid overflow.
 
 ## Deploy

@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local brand assets (LinkedIn logo/cover), not part of the site
+brand/
