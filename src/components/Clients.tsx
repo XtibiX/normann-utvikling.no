@@ -1,36 +1,17 @@
-import { Card, CardContent } from "@/components/ui/card";
-
-const clients = [
-  { name: "TET Digital", logo: null },
-  { name: "Ruter", logo: null },
-  { name: "Sparebank 1", logo: null },
-  { name: "Statnett", logo: null },
-];
+const clients = ["TET Digital", "Ruter", "Sparebank 1", "Statnett"];
 
 export const Clients = () => {
   return (
-    <section id="clients" className="py-20 px-4 bg-muted/30">
-      <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Kunder
-        </h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Jeg har levert løsninger for ledende bedrifter innen finans, transport og energi
-        </p>
-        
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {clients.map((client) => (
-            <Card key={client.name} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-6 flex items-center justify-center h-32">
-                <div className="text-center">
-                  <p className="font-semibold text-foreground group-hover:text-primary transition-colors">
-                    {client.name}
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
+    <section id="clients" aria-label="Kunder" className="mt-20 border-y border-ink/15">
+      <div className="container grid gap-6 px-4 py-8 sm:px-6 lg:grid-cols-12 lg:items-center lg:gap-8 lg:px-8">
+        <p className="eyebrow lg:col-span-3">Kunder · finans, transport og energi</p>
+        <ul className="grid grid-cols-2 gap-y-4 sm:grid-cols-4 lg:col-span-9">
+          {clients.map((name) => (
+            <li key={name} className="font-serif text-3xl text-ink/80 sm:text-4xl">
+              {name}
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );

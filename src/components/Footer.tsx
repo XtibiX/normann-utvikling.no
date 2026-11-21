@@ -1,14 +1,13 @@
 export const Footer = () => {
   return (
-    <footer className="py-8 border-t border-border bg-background">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Normann Utvikling. Alle rettigheter reservert.
-          </div>
-          <div className="text-sm text-muted-foreground">
-            Tech Lead & Fullstack-utvikler
-          </div>
+    <footer className="bg-ink text-paper">
+      <div className="container px-4 pb-10 pt-20 sm:px-6 lg:px-8">
+        <p className="font-serif text-[clamp(3.5rem,15vw,13rem)] leading-[0.8] tracking-[-0.03em] text-paper/90">
+          normann<span className="text-signal">.</span>
+        </p>
+        <div className="mt-12 flex flex-col justify-between gap-3 border-t border-paper/15 pt-6 font-mono text-xs text-paper/50 sm:flex-row">
+          <span>© {new Date().getFullYear()} Normann Utvikling. Alle rettigheter reservert.</span>
+          <span>Tech Lead &amp; Fullstack-utvikler</span>
         </div>
       </div>
     </footer>
