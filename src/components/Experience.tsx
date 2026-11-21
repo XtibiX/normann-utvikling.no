@@ -2,14 +2,6 @@ import { SectionHeading } from "@/components/SectionHeading";
 
 const experiences = [
   {
-    period: "2023 – i dag",
-    company: "Normann Utvikling",
-    role: "Selvstendig, Tech Lead & Fullstack-utvikler",
-    description: "Konsulentoppdrag med fokus på teknisk ledelse og fullstack-utvikling.",
-    highlights: [],
-    current: true,
-  },
-  {
     period: "04.2026 – i dag",
     company: "TET Digital",
     role: "Tech Lead – Reiseinnsikt",
@@ -36,6 +28,14 @@ const experiences = [
       "Første team i TET Digital som tok i bruk Snowflake som dataplattform",
       "Kotlin/Spring Boot med JDK 21, MQTT, og ML-modeller for prediksjoner",
     ],
+  },
+  {
+    period: "2023 – i dag",
+    company: "Normann Utvikling",
+    role: "Selvstendig, Tech Lead & Fullstack-utvikler",
+    description: "Konsulentoppdrag med fokus på teknisk ledelse og fullstack-utvikling.",
+    highlights: [],
+    current: true,
   },
   {
     period: "01.2019 – 01.2023",

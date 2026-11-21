@@ -53,11 +53,6 @@ Fra kritiske backend-systemer for finanssektoren til sanntidsløsninger for tran
 
 ## Erfaring
 
-### Normann Utvikling
-**Selvstendig, Tech Lead & Fullstack-utvikler** · 2023 – i dag
-
-Konsulentoppdrag med fokus på teknisk ledelse og fullstack-utvikling.
-
 ### TET Digital
 **Tech Lead – Reiseinnsikt** · 04.2026 – i dag
 
@@ -78,6 +73,11 @@ Ansvar for standardisering og behandling av kjøretøydata (APC og dørstatus) f
 - Implementerte Kafka Streams og AWS EKS for skalerbar dataarkitektur
 - Første team i TET Digital som tok i bruk Snowflake som dataplattform
 - Kotlin/Spring Boot med JDK 21, MQTT, og ML-modeller for prediksjoner
+
+### Normann Utvikling
+**Selvstendig, Tech Lead & Fullstack-utvikler** · 2023 – i dag
+
+Konsulentoppdrag med fokus på teknisk ledelse og fullstack-utvikling.
 
 ### Sparebank 1
 **Backend-utvikler – Dialog & Salg** · 01.2019 – 01.2023
