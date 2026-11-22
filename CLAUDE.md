@@ -26,11 +26,19 @@ npm is the package manager (`package-lock.json`). Do not reintroduce `bun.lockb`
 - Section anchors: `#top`, `#om`, `#kompetanse`, `#experience`, `#contact`.
 - `src/components/ui/` is stock shadcn/ui; mostly unused. Leave it alone unless needed.
 - Content (CV data) lives as arrays at the top of each section component.
+- `Experience` has three parts: `experiences` (shown in full: TET Digital, Passasjertelling, Normann Utvikling, SpareBank 1), `earlier` (2012–2018, shown as a compact list with a "Les mer om tidligere oppdrag" toggle that swaps in the full entries, rendered with `hidden` and without `data-reveal`), and `background` (Utdanning and Arbeidsgivere, always visible). The `offset` counter runs across both lists.
+- `Skills` has six categories in a 3-column grid on `xl` (2 on `sm`).
 
 ## Content
 
 - All site copy is **Norwegian (bokmål)**. Keep the user's wording; do not invent facts (years, clients, availability, location).
-- `README.md` is the CV in Markdown and mirrors the site content. **When content in a component changes, update README.md to match.**
+- `README.md` is the CV in Markdown and mirrors the site content. **When content in a component changes, update README.md to match.** README lists every engagement in full (no collapsing).
+- Positioning: **Tech Lead & backend-utvikler**, with architecture as part of the tech lead role. Historical role titles stay as they were (SpareBank 1 and Proteket are *Fullstack-utvikler*, Statnett HR & lønn is *Systemarkitekt / seniorutvikler*).
+- Facts confirmed by the user: gruppeleder in Embriq/Knowit 2015–2023 plus Tech Lead since 02.2023 (shown as "11+ år som gruppeleder og tech lead"); Master (2009–2011) and Bachelor (2005–2009) in informatikk, UiO; employers Embriq AS (2011–06.2018), Knowit Dataess AS (06.2018–01.2023), Normann Utvikling (02.2023–).
+- Clients list shows only TET Digital, Ruter, SpareBank 1, Statnett. The grid companies (Hafslund Nett, Agder Energi Nett, Lyse, Troms Kraft, Nettalliansen) bought Embriq's product Quant and are not listed as clients; they are only mentioned in the Quant engagements.
+- Kafka Streams is tied to transport (Passasjertelling); SpareBank 1 used Kafka, not Kafka Streams. GitLab → GitHub is not a feature: GitLab CI is listed for Statnett/Passasjertelling, GitHub Actions for SpareBank 1/Reiseinnsikt.
+- Leave out: the Java SE 6 certification, hourly rate, references and phone numbers from tender documents.
+- Language: correct bokmål compounds and hyphenation (REST-API, SOAP-webtjenester, containerorkestrering), no comma before «og» in lists, «SpareBank 1» with capital B.
 - Contact: `rolferik@normann-utvikling.no`, LinkedIn `https://www.linkedin.com/in/rolf-erik-normann/`, GitHub `https://github.com/xtibix`.
 
 ## Design system
