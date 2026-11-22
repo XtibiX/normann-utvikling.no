@@ -1,7 +1,10 @@
 import { ArrowDownRight, ArrowRight } from "lucide-react";
 
 const events = [
-  { key: "embriq", value: "smart-grid · java/jms", year: "2015" },
+  { key: "embriq", value: "quant · smart-grid", year: "2012" },
+  { key: "proteket", value: "bestillingssystem · java", year: "2014" },
+  { key: "embriq", value: "gruppeleder · quant", year: "2015" },
+  { key: "statnett", value: "hr-integrasjon · jwt", year: "2016" },
   { key: "statnett", value: "ems-integrasjon · camel", year: "2018" },
   { key: "sparebank1", value: "meldings-api → kafka", year: "2019" },
   { key: "sparebank1", value: "kotlin-migrering · aws", year: "2021" },
@@ -9,13 +12,13 @@ const events = [
   { key: "tet-digital", value: "snowflake · dataplattform", year: "2023" },
   { key: "normann", value: "tech lead · selvstendig", year: "2023" },
   { key: "ruter", value: "apc + dørstatus · eks", year: "2024" },
-  { key: "tet-digital", value: "gitlab → github · argocd", year: "2026" },
+  { key: "tet-digital", value: "github actions · argocd", year: "2026" },
   { key: "tet-digital", value: "reiseinnsikt · tech lead", year: "2026" },
 ];
 
 const stats = [
   { value: "14+", label: "år med backend-utvikling" },
-  { value: "8", label: "år som gruppeleder og tech lead" },
+  { value: "11+", label: "år som gruppeleder og tech lead" },
   { value: "3", label: "sektorer: finans, transport, energi" },
 ];
 
@@ -88,7 +91,7 @@ export const Hero = () => {
               data-reveal
               style={{ transitionDelay: "160ms" }}
             >
-              14+ års erfaring med backend-utvikling og teknisk ledelse. Spesialisert på{" "}
+              14+ års erfaring med backend-utvikling, arkitektur og teknisk ledelse. Spesialisert på{" "}
               <span className="text-ink">Kotlin/Spring Boot</span>, <span className="text-ink">Kafka Streams</span>,
               skalerbare skyløsninger og <span className="text-ink">AI-assistert utvikling</span>.
             </p>
