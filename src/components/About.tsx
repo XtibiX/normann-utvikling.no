@@ -4,8 +4,13 @@ import { SectionHeading } from "@/components/SectionHeading";
 const highlights = [
   { title: "Tech Lead med 14+ års erfaring", description: "Spesialisert på backend-arkitektur og teknisk ledelse" },
   { title: "Backend & integrasjoner", description: "Ekspert på Kotlin/Spring Boot, Kafka og skybaserte løsninger" },
-  { title: "Teamledelse", description: "8 års erfaring som gruppeleder og tech lead" },
+  { title: "Teamledelse", description: "Gruppeleder i Embriq og Knowit 2015–2023, Tech Lead i TET Digital siden 2023" },
+  {
+    title: "Arkitektur",
+    description: "Bakgrunn som system- og integrasjonsarkitekt, i dag en sentral del av tech lead-rollen",
+  },
   { title: "Smidig metodikk", description: "Tidligere nestleder for Smidig-konferansen 2014–2015" },
+  { title: "Utdanning", description: "Master i informatikk, Universitetet i Oslo" },
 ];
 
 export const About = () => {

@@ -1,19 +1,23 @@
 const skillCategories = [
   {
     title: "Backend & API",
-    skills: ["Kotlin/Spring Boot (JDK 21)", "Java 17+", "REST-API-design", "Spring WebFlux", "Coroutines"],
+    skills: ["Kotlin/Spring Boot (JDK 21)", "Java 17+", "REST-API-design", "OpenAPI (kontrakt først)", "Spring WebFlux", "Coroutines"],
   },
   {
     title: "Data & Streaming",
-    skills: ["Kafka Streams", "Kafka Connect", "Snowflake", "dbt", "PostgreSQL", "Oracle DB"],
+    skills: ["Kafka Streams", "Kafka Connect", "Avro", "Snowflake", "dbt", "PostgreSQL", "Oracle DB"],
   },
   {
     title: "Cloud & DevOps",
-    skills: ["AWS EKS", "Docker", "Kubernetes/Helm", "GitHub Actions", "ArgoCD (GitOps)", "GitLab → GitHub-migrering", "DataDog/Prometheus"],
+    skills: ["AWS EKS", "Docker", "Kubernetes/Helm", "GitHub Actions", "GitLab CI", "ArgoCD (GitOps)", "DataDog/Prometheus"],
   },
   {
     title: "Integrasjoner",
-    skills: ["MQTT", "Apache Camel", "GraphDB", "Enterprise Integration Patterns", "Microservices"],
+    skills: ["MQTT", "Apache Camel", "GraphDB", "Enterprise Integration Patterns", "Microservices", "SOAP"],
+  },
+  {
+    title: "Kvalitet & sikkerhet",
+    skills: ["TDD", "JUnit / MockK", "Testcontainers", "JWT", "Splunk / Grafana"],
   },
   {
     title: "AI & verktøy",
@@ -31,9 +35,9 @@ export const Skills = () => {
               <span className="text-signal">02.1</span> — Nøkkelkompetanse
             </h2>
           </div>
-          <div className="grid gap-px overflow-hidden rounded-lg border border-paper/15 bg-paper/15 sm:grid-cols-2 lg:col-span-9 xl:grid-cols-5">
+          <div className="grid gap-px overflow-hidden rounded-lg border border-paper/15 bg-paper/15 sm:grid-cols-2 lg:col-span-9 xl:grid-cols-3">
             {skillCategories.map((category, i) => (
-              <div key={category.title} className="bg-ink p-6 sm:last:col-span-2 xl:last:col-span-1" data-reveal style={{ transitionDelay: `${i * 70}ms` }}>
+              <div key={category.title} className="bg-ink p-6" data-reveal style={{ transitionDelay: `${i * 70}ms` }}>
                 <h3 className="font-sans text-sm font-medium tracking-normal text-paper">{category.title}</h3>
                 <ul className="mt-5 space-y-2.5">
                   {category.skills.map((skill) => (

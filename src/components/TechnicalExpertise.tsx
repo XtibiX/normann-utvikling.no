@@ -12,7 +12,7 @@ const technicalExpertise = [
     title: "Kafka Streams",
     version: "Enterprise",
     description:
-      "Solid erfaring med sanntidsdatabehandling og hendelsesdrevet arkitektur. Bygget kritiske streaming-løsninger for finans og transport.",
+      "Solid erfaring med sanntidsdatabehandling og hendelsesdrevet arkitektur. Har bygget Kafka Streams-løsninger for sanntidsdata i kollektivtransport, og meldingsløsninger på Kafka i finans.",
     tags: ["Strømmebehandling", "Sanntid", "Hendelsesdrevet"],
   },
   {
