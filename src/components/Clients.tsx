@@ -1,13 +1,4 @@
-const clients = [
-  "TET Digital",
-  "Ruter",
-  "SpareBank 1",
-  "Statnett",
-  "Hafslund Nett",
-  "Agder Energi Nett",
-  "Lyse",
-  "Troms Kraft",
-];
+const clients = ["TET Digital", "Ruter", "SpareBank 1", "Statnett"];
 
 export const Clients = () => {
   return (

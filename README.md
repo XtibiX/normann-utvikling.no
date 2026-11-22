@@ -117,7 +117,7 @@ Integrasjon mellom nye skytjenester for HR og lønn (Bluegarden, Saba Cloud) og 
 ### Nettalliansen – Embriq Quant
 **Backend-utvikler og integrasjonsansvarlig** · 01.2015 – 10.2016
 
-Backend-utvikling og integrasjoner for Quant, en markedsledende plattform for smart grid i Norge, for Nettalliansen, Hafslund Nett, Agder Energi Nett, Lyse og Troms Kraft.
+Backend-utvikling og integrasjoner for Quant, Embriqs markedsledende plattform for smart grid i Norge, levert til blant andre Nettalliansen, Hafslund Nett, Agder Energi Nett, Lyse og Troms Kraft.
 
 - Backend-utvikling for kritisk plattform med høyt transaksjonsvolum
 - Ansvar for integrasjoner mellom systemkomponenter og kundesystemer
@@ -158,7 +158,7 @@ Utvikling av Quant for håndtering av måledata og smarte strømmålere (AMS).
 
 ## Kunder
 
-TET Digital · Ruter · SpareBank 1 · Statnett · Hafslund Nett · Agder Energi Nett · Lyse · Troms Kraft
+TET Digital · Ruter · SpareBank 1 · Statnett
 
 ---
 
